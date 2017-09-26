@@ -33,13 +33,13 @@ author: "Aditya Agarwal"
 title: "{ Aditya Agarwal }"
 description: "Blog and website of Aditya Agarwal, blogging mainly for tech. Opinions expressed are mine."
 keywords: "agarwal, aditya, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+favicon: "/img/me1.jpg"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/me1.jpg"
 
 background-img: "../img/intro7.jpg"
 
