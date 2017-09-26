@@ -41,7 +41,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro3.jpg"
+background-img: "../img/intro7.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -131,10 +131,10 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/Python.png"
     date: "August 2017 - Today"
     description: "Learning Python"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/code.png"
     date: "September 2017 - March 2017"
     description: "Started coding"
 
