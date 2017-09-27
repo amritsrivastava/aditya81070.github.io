@@ -205,7 +205,8 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  #Blog: 'my-blog'
+  Platforms: 'platforms'
+#  Blog: 'my-blog'
   Timeline: 'timeline'
   Contact: 'contact'
 
