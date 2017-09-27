@@ -41,7 +41,7 @@ favicon: "/img/me1.jpg"
 
 black-favicon: "/img/me1.jpg"
 
-background-img: "../img/intro7.jpg"
+background-img: "../img/intro9.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -57,7 +57,10 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
-
+  - text: "Seek the greatness in life, ignore the rest."
+  - text: "Learn from your mistakes, don't just ignore them"
+  - text: "Nothing is more expensive than a missed opportunity."
+  - text: "Work until your idols become your rivals."
 #me-img: "/img/me.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
@@ -135,7 +138,7 @@ events:
     date: "August 2017 - Today"
     description: "Learning Python"
   - image: "/img/timeline/code.png"
-    date: "September 2017 - March 2017"
+    date: "March 2017 - September 2017"
     description: "Started coding"
 
 # First image of the Timeline
@@ -176,8 +179,8 @@ social:
 #    url: "/feed.xml"
   - title: "linkedin"
     url: "https://www.linkedin.com/in/aditya-agarwal-7aba26143/"
-#  - title: "quora"
-#    url: "https://www.linkedin.com/in/aditya-agarwal-7aba26143/"
+  - title: "medium"
+    url: "https://www.linkedin.com/in/aditya-agarwal-7aba26143/"
 ############
 # 404 page #
 ############
@@ -200,7 +203,7 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  Blog: 'my-blog'
+  #Blog: 'my-blog'
   Timeline: 'timeline'
   Contact: 'contact'
 

@@ -1,5 +1,5 @@
 
-<!-- Blog Layout Start -->
+<!-- Index Layout Start -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,13 +18,15 @@
   <meta name="author" content="Aditya Agarwal">
   <meta name="keywords" content="agarwal, aditya, personal, jekyll, theme">
   <link rel="canonical" href="/blog/page2/">
-  <title>{ Aditya Agarwal } | Blog</title>
+  <title>{ Aditya Agarwal }</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
   <!-- Custom CSS -->
   <link href="/css/grayscale.css" rel="stylesheet">
+  
+  <link href="/css/timeline.css" rel="stylesheet">
   
 
   <!-- Custom Fonts -->
@@ -83,7 +85,7 @@
 <!-- HEAD End -->
 
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
 
     
 <!-- Navigation Start -->
@@ -95,7 +97,7 @@
         <i class="fa fa-bars"></i>
       </button>
       
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand page-scroll" href="#page-top">
       
           <div>
             
@@ -109,32 +111,22 @@
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
         
-          <!-- Blog, Post, Tag and Error pages -->
+
+          <!-- Scroll to section for each page in index -->
           
             <li>
-            
-                <a href="/#about"> About </a>
-            
+              <a class="page-scroll" href="#about"> About </a>
             </li>
           
             <li>
-            
-                <a href="/#my-blog"> Blog </a>
-            
+              <a class="page-scroll" href="#timeline"> Timeline </a>
             </li>
           
             <li>
-            
-                <a href="/#timeline"> Timeline </a>
-            
+              <a class="page-scroll" href="#contact"> Contact </a>
             </li>
           
-            <li>
-            
-                <a href="/#contact"> Contact </a>
-            
-            </li>
-          
+
         
       </ul>
     </div>
@@ -144,150 +136,263 @@
 <!-- Navigation End -->
 
 
-    <section id="page" class="container content-section text-center">
+    
+<!-- Intro Start -->
 
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-
-        
-<!-- Swipe Instructions Start -->
-
-<div id="swipe-instruction">
-  <div>
-    <p><br><br><br></p>
-    <i id="hand-swipe" class="fa fa-hand-o-up"></i>
-    <p><strong>
-    
-      Did you know that you can navigate the archive pages by swiping left and right?
-    
-    </strong></p>
-    <button type="button" class="btn btn-default ok-btn close-swipe-instruction">
-      
-        Got it!
-      
-    </button>
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="brand-heading">&nbsp;</h1>
+            <h1 class="brand-heading">&nbsp;</h1>
+            <span class="intro-text"><!--
+If you want to have a static message in your intro layout, disable the dynamic-typing in the _config.yml and write here your text
+-->
+</span>
+            <h5>&nbsp;</h5>
+            <a href="#about" class="page-scroll">
+              
+                <img class="img-me" src="https://graph.facebook.com/100007990205740/picture?type=large&width=500&height=500" alt="">
+              
+            </a>
+          </div>
+        </div>
+    </div>
   </div>
-</div>
+</header>
 
-<!-- Swipe Instructions End -->
-
-
-        <h2 id="blog">Blog</h2>
+<!-- Intro End -->
 
 
-        <div>
+    
+      
+        
+      
+        
           
-            
-<!-- Post List Start -->
+<!-- About Start -->
 
-<h4 align="left">
-  <strong>19 Jun 2015</strong>
-  <small>.
-    <a class="category" href="/categories/tech.html">
-      tech
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/tech/2015/06/19/writing-posts.html">
-    <strong>Writing posts</strong>
-  </a>
-  <br class="visible-xs-block">
-  <small><a href="/tech/2015/06/19/writing-posts.html#disqus_thread">Comments</a></small>
-</h4>
+<section id="about" class="container content-section text-center">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2 id="whoami">WhoamI</h2>
 
-<!-- Post List End -->
+<p>I'm a grad pursuing CSE @JECRC foundation Jaipur,India. I love to code,listening music and dream to travel a lot.</p>
+<p>I recently started to work on Python. I know enough about basic programming languages like C/C++. One thing that always encourage me to go forward is, <b><i>Artificial Intelligence</i></b>. I am also an open-source contributor at <b>fossasia.</b></p>
+<p>You can view my resume <a href="aditya81070.github.io/resume.pdf" target="_blank">here.</a></p>
+<p>I am a little introvert though, I like interacting with strangers. I love to keep myself updated to new technologies and share, discuss my views with others on programming stuff. I admire movies of action and science-friction genre.</p>
+<!--<small>
+Octocat is Github's logo and trademark and here is used to illustrate a fictional character (John Smith) that used the *{ Personal }* Jekyll Theme to build his website.
+</small>-->
 
-          
-            
-<!-- Post List Start -->
+<!--Support the repo by starring or forking it!
 
-<h4 align="left">
-  <strong>12 Jun 2015</strong>
-  <small>.
-    <a class="category" href="/categories/tech.html">
-      tech
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/tech/2015/06/12/timeline-tutorial.html">
-    <strong>Adding a life event in the Timeline</strong>
-  </a>
-  <br class="visible-xs-block">
-  <small><a href="/tech/2015/06/12/timeline-tutorial.html#disqus_thread">Comments</a></small>
-</h4>
+<iframe src="https://ghbtns.com/github-btn.html?user=le4ker&repo=personal-jekyll-theme&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-<!-- Post List End -->
+<iframe src="https://ghbtns.com/github-btn.html?user=le4ker&repo=personal-jekyll-theme&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+-->
 
-          
-            
-<!-- Post List Start -->
+    </div>
+  </div>
+</section>
 
-<h4 align="left">
-  <strong>11 Jun 2015</strong>
-  <small>.
-    <a class="category" href="/categories/tech.html">
-      tech
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/tech/2015/06/11/social-buttons-tutorial.html">
-    <strong>Modifying the social buttons</strong>
-  </a>
-  <br class="visible-xs-block">
-  <small><a href="/tech/2015/06/11/social-buttons-tutorial.html#disqus_thread">Comments</a></small>
-</h4>
-
-<!-- Post List End -->
-
-          
-            
-<!-- Post List Start -->
-
-<h4 align="left">
-  <strong>10 Jun 2015</strong>
-  <small>.
-    <a class="category" href="/categories/tech.html">
-      tech
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/tech/2015/06/10/contact-tutorial.html">
-    <strong>Modifying the Contact</strong>
-  </a>
-  <br class="visible-xs-block">
-  <small><a href="/tech/2015/06/10/contact-tutorial.html#disqus_thread">Comments</a></small>
-</h4>
-
-<!-- Post List End -->
-
-          
-        </div>
+<!-- About End -->
 
         
-<!-- Pagination Links Start -->
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+<!-- Timeline Start -->
 
-<div class="pagination">
+<section id="timeline" class="container content-section text-center">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
 
-  <h4>
-
-  
-    <a href="/blog/" class="previous">Newer Posts</a>
-  
-
-  
-
-  
-
-  </h4>
-
-</div>
-
-<!-- Pagination Links End -->
+      <h2 id="timeline">Timeline</h2>
 
 
-        </div>
-      </div>
-    </section>
+      <ul class="timeline">
+
+        
+          
+          
+
+          <li class="
+          
+          ">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="/img/timeline/Python.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>August 2017 - Today</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Learning Python</p>
+
+              </div>
+            </div>
+          </li>
+        
+          
+          
+
+          <li class="
+          
+            timeline-inverted
+          
+          ">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="/img/timeline/code.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>March 2017 - September 2017</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Started coding</p>
+
+              </div>
+            </div>
+          </li>
+        
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="/img/timeline/default.png" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline End -->
+
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+          
+<!-- Contact Start -->
+
+<section id="contact" class="container content-section text-center">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      <h2 id="contact-me">Contact Me</h2>
+
+<p>Wanna catch me u can drop me a mail on!!</p>
+
+
+      
+        
+          
+            <p>
+            <script>
+              function join_at_email(user, domain){
+              return (user && domain)?(user + "@" + domain):"";
+              }
+              document.write('<a href="mailto:'
+              + join_at_email( "aditya81070", "gmail.com" )
+              + '">'
+              + join_at_email( "aditya81070", "gmail.com" )
+              + '</a>'
+              );
+              </script>
+            </p>
+        
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact End -->
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
 
     <!-- Footer Start -->
 
@@ -304,6 +409,8 @@
     <li><a href="https://github.com/aditya81070" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
     
     <li><a href="https://www.linkedin.com/in/aditya-agarwal-7aba26143/" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+    
+    <li><a href="https://www.linkedin.com/in/aditya-agarwal-7aba26143/" target="_blank"><i class="fa fa-medium fa-fw"></i></a></li>
     
     
 </ul>
@@ -345,6 +452,14 @@ function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top")
 $(document).ready(toggleNavCollapse);
 $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click",function(b){var a=$(this);$("html, body").stop().animate({scrollTop:$(a.attr("href")).offset().top-50},1500,"easeInOutExpo",function(){a.blur()});b.preventDefault()})});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
 </script>
+
+
+
+  <!-- Collapse navbar when navbar-brand is clicked -->
+
+  <script>
+  $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse.in").animate({height:"1px"},500,function(){$(".collapse.in").removeClass("in")})})});
+  </script>
 
 
 
@@ -402,10 +517,68 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 
 
+  <!-- Dynamic Typing Start -->
+
+  <script type="text/javascript" src="/js/typed.min.js"></script>
+  <script type="text/javascript">
+
+  var myQuotes =  new Array();
+  
+    myQuotes.push("The lower you fall, the higher you'll fly.");
+  
+    myQuotes.push("Where’s your will to be weird?");
+  
+    myQuotes.push("Seek the greatness in life, ignore the rest.");
+  
+    myQuotes.push("Learn from your mistakes, don't just ignore them");
+  
+    myQuotes.push("Nothing is more expensive than a missed opportunity.");
+  
+    myQuotes.push("Work until your idols become your rivals.");
+  
+
+  function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex ;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+  
+    shuffle(myQuotes)
+  
+
+    $(".intro-text").typed({
+      strings: myQuotes,
+      typeSpeed: 10,
+      backDelay: 5000,
+      startDelay: 200,
+      loop: true,
+      loopCount: false,
+      cursorChar: "|"
+    });
+  </script>
+
+  <!-- Dynamic Typing End  -->
+
+
+
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Blog', 'https://aditya81070.github.io/blog/page2/');
+    history.pushState({}, '', 'https://aditya81070.github.io/blog/page2/');
   }
 }
 </script>
@@ -416,49 +589,6 @@ function addTohistory() {
   
 
   
-
-    <!-- Blog Gesture Navigation Start -->
-
-    <script type="text/javascript" src="/js/hammer.min.js"></script>
-
-    <script>
-      var page = document.getElementById('page');
-
-      new Hammer(page).on('swipeleft', function(event) {
-        addTohistory();
-        
-          document.location.replace("/");
-        
-      });
-      new Hammer(page).on('swiperight', function(event) {
-        addTohistory();
-        
-          document.location.replace("/blog/");
-        
-      });
-    </script>
-
-    <!-- Blog Gesture Navigation Start -->
-
-  
-
-  
-
-    <!-- Swipe Instructions for Blog Start -->
-
-    <script>
-      $(document).ready(function(){
-        if(!localStorage.getItem('blog-swipeshowed')){
-          $("#swipe-instruction").fadeIn();
-          $("#swipe-instruction .close-swipe-instruction").click(function(){
-            $("#swipe-instruction").fadeOut();
-          });
-          localStorage.setItem('blog-swipeshowed', true);
-        }
-      });
-    </script>
-
-    <!-- Swipe Instructions for Blog End -->
 
   
 
@@ -474,4 +604,4 @@ function addTohistory() {
   </body>
 </html>
 
-<!-- Blog Layout End -->
+<!-- Index Layout End -->
